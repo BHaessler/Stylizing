@@ -36,26 +36,22 @@
   
   /* Navigation */
   .navbar {
-    position: sticky;
-    top: 0;
-    z-index: 1030;
-    height: 50px;
-  }
-  
-  .navbar-button {
-    border-color: #04003a;
-    color: #fff;
-    background-color: #0b00a8;
-    margin-right: 10px;
-    display: block;
-    padding: 10px;
-    margin-bottom: 10px;
+    display: flex; /* Use flexbox to arrange buttons inline */
+    justify-content: center; /* Center the buttons horizontally */
+    background-color: #0b00a8; /* Add a background color to the navbar */
+}
+
+.navbar-button {
+    border-color: #04003a; /* Change this to your desired border color */
+    color: #fff; /* Text color */
+    background-color: transparent; /* Make background transparent */
+    margin: 0 10px; /* Space between buttons */
+    padding: 10px 20px; /* Adjust padding for buttons */
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
-  }
+}
   
   .navbar-button:hover {
     background-color: #02001a;

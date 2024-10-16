@@ -10,21 +10,64 @@
     <title>Styling Project</title>
 </head>
 <body>
-    <header>
-        <h1>My Styling Project</h1>
+
+    <header class="navbar">
+        <nav>
+            <a href="#" class="navbar-button">Home</a>
+            <a href="#" class="navbar-button">About</a>
+            <a href="#" class="navbar-button">Contact</a>
+        </nav>
     </header>
-    <section>
-        <h2>Buttons</h2>
-        <button class="btn-primary">Primary Button</button>
-        <button class="btn-secondary">Secondary Button</button>
-    </section>
-    <section>
-        <h2>Cards</h2>
-        <div class="card">
-            <h3>Card Title</h3>
-            <p>Card content goes here.</p>
-        </div>
-    </section>
-    <!-- Add more sections as needed -->
+
+    <div class="page-container">
+
+        <aside class="sidebar">
+            <h3>Sidebar Title</h3>
+            <ul class="sidebar-nav">
+                <li><a href="#" class="sidebar_button">Dashboard</a></li>
+                <li><a href="#" class="sidebar_button">Settings</a></li>
+                <li><a href="#" class="sidebar_button">Profile</a></li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <h1>Welcome to Your Website</h1>
+            <p>This is a sample page to showcase your styles.</p>
+            <button class="dashboard_button">Click Me</button>
+            <button class="dashboard_button_delete">Delete</button>
+
+            <h2>Table Example</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Occupation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>30</td>
+                        <td>Developer</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>25</td>
+                        <td>Designer</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <h5>Footer Title</h5>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
+
 </body>
 </html>
