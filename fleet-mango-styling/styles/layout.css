@@ -1,0 +1,40 @@
+/* layout.css */
+
+/* Layout */
+.page-container {
+    display: flex;
+    flex: 1;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+  }
+  
+  .main-content.full-width {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .page-container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+    }
+  
+    .sidebar-nav {
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .sidebar_button {
+      width: auto;
+    }
+  }
+  

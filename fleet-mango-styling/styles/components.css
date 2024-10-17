@@ -1,0 +1,123 @@
+/* components.css */
+
+/* Buttons */
+.dashboard_button {
+    background-color: #455f7e;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dashboard_button:hover {
+    background-color: #1e2731;
+  }
+  
+  .dashboard_button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #1e2731;
+  }
+  
+  .dashboard_button_delete {
+    background-color: #693333;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Navigation */
+  .navbar {
+    display: flex; /* Use flexbox to arrange buttons inline */
+    justify-content: center; /* Center the buttons horizontally */
+    background-color: #0b00a8; /* Add a background color to the navbar */
+}
+
+.navbar-button {
+    border-color: #04003a; /* Change this to your desired border color */
+    color: #fff; /* Text color */
+    background-color: transparent; /* Make background transparent */
+    margin: 0 10px; /* Space between buttons */
+    padding: 10px 20px; /* Adjust padding for buttons */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+  
+  .navbar-button:hover {
+    background-color: #02001a;
+    border-color: #ffffff;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 200px;
+    background-color: #669e97;
+    padding: 20px 10px;
+  }
+  
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .sidebar-nav li {
+    list-style-type: none;
+  }
+  
+  /* Sidebar Buttons */
+  .sidebar_button {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #b3b3b3;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .sidebar_button:hover {
+    background-color: #353535;
+    color: white;
+  }
+  
+  .plate_button, .owner_button {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .plate_button {
+    background-color: #023f77;
+    color: white;
+  }
+  
+  .plate_button:hover {
+    background-color: #012f5a;
+  }
+  
+  .owner_button {
+    background-color: #037d6a;
+    color: black;
+  }
+  
+  .owner_button:hover {
+    background-color: #01463b;
+    color: white;
+  }
+  
