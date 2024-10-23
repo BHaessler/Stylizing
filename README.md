@@ -1,7 +1,7 @@
 # Stylizing
 A repository for holding and showing all of the styles for my various projects, this is more like a lookbook for me to reference later
 
-[![Deploy static content to Pages](https://github.com/BHaessler/Stylizing/actions/workflows/static.yml/badge.svg?branch=main&event=page_build)](https://github.com/BHaessler/Stylizing/actions/workflows/static.yml)
+[![Deploy static content to Pages](https://github.com/BHaessler/Stylizing/actions/workflows/static.yml/badge.svg)](https://github.com/BHaessler/Stylizing/actions/workflows/static.yml)
 
 
 To see generally what the styling for the fleet-mango-styling click [here](https://bhaessler.github.io/Stylizing/index.html)
